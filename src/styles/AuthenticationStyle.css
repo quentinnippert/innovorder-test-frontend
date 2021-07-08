@@ -1,0 +1,77 @@
+body {
+    background-color: #ffffff;
+}
+
+.authentication-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-container,
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60%;
+    width: 25%;
+    background-color: #F96D6D;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+}
+
+.title-auth {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.input-auth {
+    width: 70%;
+    height: 8%;
+    border-radius: 10px;
+    border: 1px solid #fa5d5d;
+    margin-bottom: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    color: #606060;
+}
+
+.validation-auth {
+    width: 70%;
+    height: 8%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: #fa5d5d;
+    outline: none;
+}
+
+.validation-auth:hover {
+    transition: ease 0.5s;
+    background-color: #fa5d5d;
+    color: white;
+}
+
+.error {
+    font-family: 'Poppins', sans-serif;
+    color: #6f0000;
+    text-align: center;
+}
+
+.loading {
+    width: 30%;
+}

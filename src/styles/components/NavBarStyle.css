@@ -1,0 +1,36 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #F96D6D;
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.test {
+    color: #36acc1;
+}
+
+.menu-items {
+    width: 45%;
+    text-align: end;
+}
+
+.icon-nav {
+    color: #F96D6D;
+    cursor: pointer;
+}
+
+.icon-nav:hover {
+    color: #36acc1;
+    transition: ease 0.5s;
+}
